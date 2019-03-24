@@ -1,4 +1,4 @@
-package estruturado;
+package templateMethod;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

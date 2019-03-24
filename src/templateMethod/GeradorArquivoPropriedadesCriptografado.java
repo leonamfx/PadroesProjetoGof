@@ -1,4 +1,4 @@
-package estruturado;
+package templateMethod;
 
 import java.util.Map;
 
