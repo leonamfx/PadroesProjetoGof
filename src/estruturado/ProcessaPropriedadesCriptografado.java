@@ -19,7 +19,7 @@ public class ProcessaPropriedadesCriptografado {
 
 	}
 	
-	private byte[] processaCriptografado(byte[] bytes[]) {
+	private byte[] processaCriptografado(byte[] bytes) {
 		// criptografa
 		byte[] newBytes = new byte[bytes.length];
 		for (int i = 0; i<bytes.length;i++) {

@@ -13,8 +13,6 @@ public class ProcessaXmlCompactado {
 		return processaCompactacao(conteudo.getBytes());
 	}
 	
-
-	
 	private String geraConteudoXml(Map<String,Object> propriedades) {
 		//gera xml
 		StringBuilder propFileBuilder = new StringBuilder();
@@ -27,7 +25,6 @@ public class ProcessaXmlCompactado {
 		
 	}
 	
-
 	private byte[] processaCompactacao(byte[] bytes)  throws IOException  {
 		//compacta
 		ByteArrayOutputStream byteout = new ByteArrayOutputStream();
