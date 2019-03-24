@@ -44,6 +44,7 @@ public class GeradorArquivo {
 			bytes = byteout.toByteArray();
 		} else {
 			System.out.println("Desconheço essa opção");
+			return;
 		}
 		FileOutputStream fileout = new FileOutputStream(nome);
 		fileout.write(bytes);

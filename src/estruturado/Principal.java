@@ -14,7 +14,10 @@ public class Principal {
 		gerador.gerarArquivo("c:\\Gerador\\Cripto.txt", mapa, "PROPRIEDADES_CRIPTOGRAFADO");
 		
 		GeradorArquivo gerador1 = new GeradorArquivo();
-		gerador1.gerarArquivo("c:\\Gerador\\XML.zip", mapa, "XML_COMPACTADO");		
+		gerador1.gerarArquivo("c:\\Gerador\\XML.zip", mapa, "XML_COMPACTADO");	
+
+		GeradorArquivo gerador2 = new GeradorArquivo();
+		gerador1.gerarArquivo("c:\\Gerador\\XML.zip", mapa, "adfae");
 	}
 
 }
